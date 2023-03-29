@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#home {
+    height: calc(100% - 60px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#home > h1 {
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
